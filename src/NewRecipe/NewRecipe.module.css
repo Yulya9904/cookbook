@@ -1,0 +1,85 @@
+* {box-sizing: border-box;}
+body {background: #FFF2E3;}
+.wedding {
+  position: relative;
+  max-width: 320px;
+  margin: 50px auto 0;
+  text-align: center;
+}
+.form:before {
+  display: inline-block;
+  margin-top: -45px;
+}
+.form {
+  padding: 0 40px 0px;
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 0 6px 1px rgba(0,0,0,.1);
+}
+.form h2 {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  font-weight: 300;
+  font-size:20px;
+  text-transform: uppercase;
+  font-family: 'Palatino', serif; 
+  color: #535353;
+}
+.formcontent {
+  position: relative;
+  margin: 30px -40px 0 -40px;
+  padding: 10px 40px 0 40px;
+  background: #FFF8F3;
+}
+.formcontent:before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: 0;
+  left: 0;
+  height: 2px;
+  border-bottom: 1px solid #DDDDDD;
+}
+.formcontent h3 {
+    font-family: 'Palatino', serif;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 17px;
+  color: #898989;
+  font-weight: normal;
+}
+.formcontent input,
+.formcontent textarea,
+.formcontent select {
+  height: 38px;
+  line-height: 38px;
+  padding: 0 10px;
+  background: #ffffff;
+  border: 1px solid #DDDDDD;
+  font-size: 15px;
+  font-family: 'Palatino', serif;
+  color: #808080;
+  outline: none;
+}
+.formcontent textarea {
+  height: 60px ;
+}
+.formcontent select {width:60%}
+.formcontent input, .formcontent textarea {width: 100%;}
+.formcontent input:focus, .formcontent textarea:focus,
+.formcontent select:focus {border-color: #C44D58;}
+.formcontent input[type="submit"] {
+  margin: 10px 0;
+  width: 40%;
+  padding: 0 10px;
+  background: #FF6B6B;
+  color: #ffffff;   
+  font-size: 18px;
+  text-transform: uppercase;
+  border-width: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .2s linear}
+  
+.formcontent input[type="submit"]:hover {background: #C44D58;}

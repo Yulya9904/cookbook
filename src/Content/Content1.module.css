@@ -1,0 +1,13 @@
+.content {
+    grid-area: cont;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.recipe {   
+color: darkblue; 
+}
+
+.recipes {
+
+}

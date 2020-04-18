@@ -1,0 +1,31 @@
+.category {
+    grid-area: cont;
+    display: grid;
+    grid-template-areas: 
+    "cat recipe";
+    width: 100%;
+    grid-template-columns: 3fr 11fr;
+    grid-gap: 3px;
+}
+
+.cat{
+    grid-area: cat;
+    display: grid;
+    padding: 20px;
+    background-color:#ffdab96e;
+    border-radius: 2px;
+    box-shadow: 0 0 8px 1px rgba(0,0,0,.1);
+}
+.recipe{
+    grid-area: recipe;
+    display: grid;
+}
+
+.item a{
+    text-decoration:none;
+    color:olivedrab;
+}
+
+.item a.active{
+    color: orangered;
+}
